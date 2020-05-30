@@ -1,0 +1,35 @@
+{
+    "name": "olafnorge/borgphp",
+    "description": "PHP command wrapper for borgbackup.",
+    "keywords": ["borg", "backup", "php", "wrapper"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Volker Machon",
+            "email": "github@olafnorge.de"
+        }
+    ],
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "discard-changes": true
+    },
+    "autoload": {
+        "psr-4": {
+            "olafnorge\\borgphp\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.2.5",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-pcntl": "*",
+        "symfony/process": "^4.0|^5.0"
+    },
+    "suggest": {
+        "borg": "You need to have borg installed and available in your PATH. Please follow the instructions of your OS package manager."
+    }
+}
