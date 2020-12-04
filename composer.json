@@ -23,7 +23,7 @@
     },
     "minimum-stability": "stable",
     "require": {
-        "php": "^7.2.5",
+        "php": ">=7.2",
         "ext-json": "*",
         "ext-mbstring": "*",
         "ext-pcntl": "*",
