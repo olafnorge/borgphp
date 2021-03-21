@@ -53,6 +53,7 @@ abstract class BorgExecutable extends Process {
         '--progress' => null,
         '--log-json' => null,
         '--lock-wait' => '[0-9]+',
+        '--bypass-lock' => null,
         '--show-version' => null,
         '--show-rc' => null,
         '--umask' => '0[0-7]{1}[0-7]{1}[0-7]{1}',
